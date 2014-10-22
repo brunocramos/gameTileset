@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Bruno C. Ramos - bruno@wee.ag" />
+        
+        <title>Simple Game Boilerplate</title>
+
+        <link rel="stylesheet" href="css/auxiliar/normalize.css" />
+        <link rel="stylesheet" href="css/auxiliar/default.css" />
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <canvas id="game" width="600" height="480"></canvas>
+        </div>
+        <div id="fps"></div>        
+
+        <script src="js/auxiliar/jquery-2.1.1.min.js"></script>
+        <script src="js/game/libs/game.debug.js"></script>
+        <script src="js/game/libs/game.gui.js"></script>
+        <script src="js/game/libs/game.util.js"></script>
+        <script src="js/game/libs/game.map.js"></script>
+        <script src="js/game/libs/game.main.js"></script>
+        <script>
+            $(window).load(function() {
+                Game.Main.init();
+            });
+        </script>
+    </body>
+</html>

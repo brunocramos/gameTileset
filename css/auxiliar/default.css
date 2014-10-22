@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.wrapper {
+	text-align: center;
+	padding:50px;
+}
+#fps {position:absolute;width:100%;top:20px;text-align:center;}
