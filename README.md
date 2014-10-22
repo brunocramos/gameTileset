@@ -6,6 +6,7 @@ This was based on HTML5 Gamer's article[1] located below, but with some architec
 
 Feel free to fork and apply as many changes as you desire!
 
+**This approach makes a JSON request to load the map, so you must run it on a server.**
 
 
 **To do:**
